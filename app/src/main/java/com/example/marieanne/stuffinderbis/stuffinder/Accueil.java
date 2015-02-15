@@ -1,12 +1,13 @@
-package com.example.marieanne.stuffinderbis;
+package com.example.marieanne.stuffinderbis.stuffinder;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.content.Intent;
+import
+import com.example.marieanne.stuffinderbis.R;
 
 
 public class Accueil extends Activity {
@@ -29,6 +30,7 @@ public void accueilToSeCo (View view) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accueil);
 
+        NetworkServiceProvider.setNetworkService(NetworkServiceEmulator.getInstance());
     }
 
 

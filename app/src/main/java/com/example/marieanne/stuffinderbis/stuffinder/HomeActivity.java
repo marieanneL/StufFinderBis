@@ -1,9 +1,11 @@
-package com.example.marieanne.stuffinderbis;
+package com.example.marieanne.stuffinderbis.stuffinder;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.marieanne.stuffinder.R;import com.example.marieanne.stuffinderbis.R;
 
 
 public class HomeActivity extends Activity {

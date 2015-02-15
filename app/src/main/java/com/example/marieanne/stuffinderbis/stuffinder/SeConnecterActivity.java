@@ -1,20 +1,15 @@
-package com.example.marieanne.stuffinderbis;
+package com.example.marieanne.stuffinderbis.stuffinder;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.content.Intent;
 import android.widget.EditText;
-import android.widget.Toast;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.example.marieanne.stuffinder.Accueil;import com.example.marieanne.stuffinder.R;import com.example.marieanne.stuffinderbis.R;import com.example.marieanne.stuffinderbis.stuffinder.Accueil;
 
-import com.loopj.android.http.AsyncHttpClient;
-import com.loopj.android.http.AsyncHttpResponseHandler;
-import com.loopj.android.http.RequestParams;
 
 
 public class SeConnecterActivity extends Activity {
@@ -32,14 +27,6 @@ public class SeConnecterActivity extends Activity {
 
 
    public void connexion (View view) {
-
-       RequestParams params = new RequestParams();
-       String mdp = editTextIdentifiant.getText().toString();
-       String identifiant = editTextIdentifiant.getText().toString();
-
-       if ( identifiant != null && mdp != null ) {
-
-       }
 
 
    }

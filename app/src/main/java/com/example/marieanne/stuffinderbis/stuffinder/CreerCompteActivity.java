@@ -1,12 +1,13 @@
-package com.example.marieanne.stuffinderbis;
+package com.example.marieanne.stuffinderbis.stuffinder;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.content.Intent;
+
+import com.example.marieanne.stuffinder.Accueil;import com.example.marieanne.stuffinder.R;import com.example.marieanne.stuffinderbis.R;import com.example.marieanne.stuffinderbis.stuffinder.Accueil;import java.lang.Override;
 
 
 public class CreerCompteActivity extends Activity {

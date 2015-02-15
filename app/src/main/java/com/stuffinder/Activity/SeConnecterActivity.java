@@ -1,4 +1,4 @@
-package com.example.marieanne.stuffinderbis.stuffinder;
+package com.stuffinder.Activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,8 +7,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-
-import com.example.marieanne.stuffinder.Accueil;import com.example.marieanne.stuffinder.R;import com.example.marieanne.stuffinderbis.R;import com.example.marieanne.stuffinderbis.stuffinder.Accueil;
 
 
 

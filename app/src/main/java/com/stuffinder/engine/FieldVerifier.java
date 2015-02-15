@@ -1,4 +1,4 @@
-package com.stuffinder.engine;
+package com.stuffinder.Activity;
 
 
 /**

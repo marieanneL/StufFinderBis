@@ -1,4 +1,4 @@
-package com.example.marieanne.stuffinderbis.stuffinder;
+package com.stuffinder.Activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import
-import com.example.marieanne.stuffinderbis.R;
+
+
 
 
 public class Accueil extends Activity {

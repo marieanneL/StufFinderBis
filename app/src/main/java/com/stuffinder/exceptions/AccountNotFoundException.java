@@ -1,4 +1,4 @@
-package com.stuffinder.exceptions;
+package exceptions;
 
 public class AccountNotFoundException extends Exception
 {

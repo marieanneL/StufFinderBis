@@ -1,4 +1,4 @@
-package com.stuffinder.exceptions;
+package exceptions;
 
 public class NetworkServiceException extends Exception
 {

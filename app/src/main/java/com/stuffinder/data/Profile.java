@@ -1,4 +1,4 @@
-package com.stuffinder.data;
+package data;
 
 import java.util.ArrayList;
 import java.util.List;

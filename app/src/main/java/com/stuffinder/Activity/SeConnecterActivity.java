@@ -8,6 +8,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
+import com.example.marieanne.stuffinderbis.R;
+
 
 
 public class SeConnecterActivity extends Activity {

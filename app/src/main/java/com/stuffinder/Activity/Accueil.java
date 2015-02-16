@@ -7,6 +7,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.stuffinder.interfaces.NetworkServiceInterface;
+import com.stuffinder.engine.NetworkServiceProvider;
+import com.stuffinder.Activity.Accueil;
+import com.example.marieanne.stuffinderbis.R;
 
 
 

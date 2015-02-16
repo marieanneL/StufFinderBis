@@ -48,6 +48,7 @@ public class CreerCompteActivity extends Activity {
         editTextEmail= (EditText)findViewById(R.id.editTextEmail);
         editTextMdP= (EditText)findViewById(R.id.editTextMdP);
 
+        NetworkServiceProvider.setNetworkService(NetworkServiceEmulator.getInstance());
     }
 
 
@@ -82,7 +83,7 @@ public class CreerCompteActivity extends Activity {
             }
 
             Account account = new Account(identifiant, prenom, nom, email);                            /* Création d'un compte*/
-            NetworkServiceProvider.createAccount(account, mdp);                                        /*Demande de création de compte au web service */
+            NetworkServiceProvider.getNetworkService().createAccount(account, mdp);                                        /*Demande de création de compte au web service */
 
             startActivity(intentToHome);  }
                                                                          /* Passer à l'activité Home*/
@@ -90,18 +91,18 @@ public class CreerCompteActivity extends Activity {
 
         catch (IllegalFieldException e) {
             switch (e.getFieldId()) {
-                case 0:
+                case IllegalFieldException.PSEUDO:
                     Toast.makeText(CreerCompteActivity.this, "Entrer identifiant", Toast.LENGTH_LONG).show();
                     break;
-                case 1:
+                case IllegalFieldException.FIRSTNAME:
                     Toast.makeText(CreerCompteActivity.this, "Entrer prenom", Toast.LENGTH_LONG).show();
-                case 2:
-                    Toast.makeText(CreerCompteActivity.this, "Entrer prénom", Toast.LENGTH_LONG).show();
+                case IllegalFieldException.LASTNAME:
+                    Toast.makeText(CreerCompteActivity.this, "Entrer nom", Toast.LENGTH_LONG).show();
                     break;
-                case 3:
+                case IllegalFieldException.EMAIL_ADDRESS:
                     Toast.makeText(CreerCompteActivity.this, "Email Incorrect", Toast.LENGTH_LONG).show();
                     break;
-                case 5:
+                case IllegalFieldException.PASSWORD:
                     Toast.makeText(CreerCompteActivity.this, "Mot de passe incorect ; il doit contenir au moins 6 caractères", Toast.LENGTH_LONG).show();
                     break;
             }

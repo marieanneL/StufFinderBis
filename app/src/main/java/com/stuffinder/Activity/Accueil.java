@@ -34,7 +34,6 @@ public void accueilToSeCo (View view) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accueil);
 
-        NetworkServiceProvider.setNetworkService(NetworkServiceEmulator.getInstance());
     }
 
 

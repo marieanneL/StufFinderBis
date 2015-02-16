@@ -11,6 +11,7 @@ import com.stuffinder.interfaces.NetworkServiceInterface;
 import com.stuffinder.engine.NetworkServiceProvider;
 import com.stuffinder.Activity.Accueil;
 import com.example.marieanne.stuffinderbis.R;
+import com.stuffinder.tests.NetworkServiceEmulator;
 
 
 
@@ -34,7 +35,8 @@ public void accueilToSeCo (View view) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accueil);
 
-        NetworkServiceProvider.setNetworkService(NetworkServiceEmulator.getInstance());
+
+
     }
 
 

@@ -43,6 +43,14 @@ public class Account
 		return pseudo;
 	}
 
+
+    public void setPseudo(String pseudo) {
+
+        if(pseudo == null)
+         throw new NullPointerException();
+        this.pseudo = pseudo; }
+
+
 	public String getFirstName()
 	{
 		return firstName;
@@ -54,6 +62,7 @@ public class Account
 			throw new NullPointerException();
 		this.firstName = firstName;
 	}
+
 
 	public String getLastName()
 	{

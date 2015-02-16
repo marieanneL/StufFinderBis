@@ -8,7 +8,6 @@ import java.util.Set;
 import com.stuffinder.data.Account;
 import com.stuffinder.data.Profile;
 import com.stuffinder.data.Tag;
-import com.stuffinder.engine.FieldVerifier;
 import com.stuffinder.exceptions.AccountNotFoundException;
 import com.stuffinder.exceptions.IllegalFieldException;
 import com.stuffinder.exceptions.NetworkServiceException;
@@ -16,6 +15,8 @@ import com.stuffinder.exceptions.NotAuthenticatedException;
 import com.stuffinder.exceptions.TagAlreadyUsedException;
 import com.stuffinder.exceptions.TagNotFoundException;
 import com.stuffinder.interfaces.NetworkServiceInterface;
+import com.stuffinder.engine.FieldVerifier;
+
 
 public class NetworkServiceEmulator implements NetworkServiceInterface
 {

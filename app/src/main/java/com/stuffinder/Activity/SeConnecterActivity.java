@@ -28,6 +28,8 @@ public class SeConnecterActivity extends Activity {
 
    public void connexion (View view) {
 
+       
+
 
    }
 

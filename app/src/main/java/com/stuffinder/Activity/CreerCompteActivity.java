@@ -42,8 +42,6 @@ public class CreerCompteActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_creer_compte);
 
-        NetworkServiceProvider.setNetworkService(NetworkServiceEmulator.getInstance());
-
         editTextNom= (EditText)findViewById(R.id.editTextNom);
         editTextPrenom= (EditText)findViewById(R.id.editTextPrenom);
         editTextIdentifiant= (EditText)findViewById(R.id.editTextIdentifiant1);
@@ -84,7 +82,7 @@ public class CreerCompteActivity extends Activity {
             }
 
             Account account = new Account(identifiant, prenom, nom, email);                            /* Création d'un compte*/
-            NetworkService?.createAccount(account, mdp);                                        /*Demande de création de compte au web service */
+            NetworkServiceProvider.createAccount(account, mdp);                                        /*Demande de création de compte au web service */
 
             startActivity(intentToHome);  }
                                                                          /* Passer à l'activité Home*/

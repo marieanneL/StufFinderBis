@@ -1,4 +1,4 @@
-package engine;
+package com.stuffinder.engine;
 
 import java.io.File;
 import java.io.IOException;

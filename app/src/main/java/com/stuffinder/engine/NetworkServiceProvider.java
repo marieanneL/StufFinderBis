@@ -1,6 +1,6 @@
-package engine;
+package com.stuffinder.engine;
 
-import interfaces.NetworkServiceInterface;
+import com.stuffinder.interfaces.NetworkServiceInterface;
 
 /**
  * This class has the reference to the current network service. <br/>

@@ -1,4 +1,4 @@
-package exceptions;
+package com.stuffinder.exceptions;
 
 public class TagAlreadyUsedException extends Exception
 {

@@ -1,6 +1,6 @@
-package exceptions;
+package com.stuffinder.exceptions;
 
-import interfaces.NetworkServiceInterface;
+import com.stuffinder.interfaces.NetworkServiceInterface;
 
 /**
  * Thrown to indicate that an illegal field has been passed to a method. The field can be incorrect (syntactically) or already used.<br/>

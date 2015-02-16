@@ -1,17 +1,17 @@
-package interfaces;
+package com.stuffinder.interfaces;
 
 import java.util.List;
 
-import data.Account;
-import data.Profile;
-import data.Tag;
-import engine.NetworkServiceProvider;
-import exceptions.AccountNotFoundException;
-import exceptions.IllegalFieldException;
-import exceptions.NetworkServiceException;
-import exceptions.NotAuthenticatedException;
-import exceptions.TagAlreadyUsedException;
-import exceptions.TagNotFoundException;
+import com.stuffinder.data.Account;
+import com.stuffinder.data.Profile;
+import com.stuffinder.data.Tag;
+import com.stuffinder.engine.NetworkServiceProvider;
+import com.stuffinder.exceptions.AccountNotFoundException;
+import com.stuffinder.exceptions.IllegalFieldException;
+import com.stuffinder.exceptions.NetworkServiceException;
+import com.stuffinder.exceptions.NotAuthenticatedException;
+import com.stuffinder.exceptions.TagAlreadyUsedException;
+import com.stuffinder.exceptions.TagNotFoundException;
 
 /**
  * This interface makes the link between the network service (in this case, this is the client web service) and the engine of the application.

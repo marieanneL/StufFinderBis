@@ -1,4 +1,4 @@
-package data;
+package com.stuffinder.data;
 
 public class Position
 {

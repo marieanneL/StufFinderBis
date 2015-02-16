@@ -1,21 +1,21 @@
-package tests;
+package com.stuffinder.tests;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import data.Account;
-import data.Profile;
-import data.Tag;
-import engine.FieldVerifier;
-import exceptions.AccountNotFoundException;
-import exceptions.IllegalFieldException;
-import exceptions.NetworkServiceException;
-import exceptions.NotAuthenticatedException;
-import exceptions.TagAlreadyUsedException;
-import exceptions.TagNotFoundException;
-import interfaces.NetworkServiceInterface;
+import com.stuffinder.data.Account;
+import com.stuffinder.data.Profile;
+import com.stuffinder.data.Tag;
+import com.stuffinder.engine.FieldVerifier;
+import com.stuffinder.exceptions.AccountNotFoundException;
+import com.stuffinder.exceptions.IllegalFieldException;
+import com.stuffinder.exceptions.NetworkServiceException;
+import com.stuffinder.exceptions.NotAuthenticatedException;
+import com.stuffinder.exceptions.TagAlreadyUsedException;
+import com.stuffinder.exceptions.TagNotFoundException;
+import com.stuffinder.interfaces.NetworkServiceInterface;
 
 public class NetworkServiceEmulator implements NetworkServiceInterface
 {

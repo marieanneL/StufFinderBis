@@ -21,7 +21,6 @@ import com.stuffinder.engine.NetworkServiceProvider;
 import java.lang.Override;
 
 
-
 public class CreerCompteActivity extends Activity {
 
     EditText editTextNom ;
